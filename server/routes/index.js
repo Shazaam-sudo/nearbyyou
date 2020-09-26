@@ -11,5 +11,10 @@ router.get('/users', (req,res)=>
   res.json({title:'nearbyyou'})
 })
 
+router.get('/right', (req,res)=>
+{
+  res.json({title:'Mohd Shezan'})
+})
+
 module.exports = router;
 
